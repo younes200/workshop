@@ -1,0 +1,9 @@
+{
+  "name": "workshop",
+  "version": "0.0.1",
+  "description": "cordova test",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-phonegap-build": "^0.1.4"
+  }
+}
