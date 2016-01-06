@@ -5,9 +5,10 @@ gulp.task('phonegap-build', function () {
     gulp.src('dist/**/*', {dot: true})
         .pipe(phonegapBuild({
             "isRepository": "true",
-            "appId": "9876",
+            "appId": "1850356",
             "user": {
-                "token": "ABCD123409876XYZ"
+                "email": "nizar.oukhchi@gmail.com",
+                "password": "final118008"
             }
         }));
 });
@@ -15,7 +16,8 @@ gulp.task('phonegap-build', function () {
 gulp.task('phonegap-build-debug', function () {
     gulp.src('dist/**/*', {dot: true})
         .pipe(phonegapBuild({
-            "appId": "1234",
+            "isRepository": "true",
+            "appId": "1850356",
             "user": {
                 "email": "nizar.oukhchi@gmail.com",
                 "password": "final118008"
